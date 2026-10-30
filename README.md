@@ -1,4 +1,4 @@
-# SYNAPSE-T
+# Synapse-T: Autonomous Zero-Trust Healthcare GRC & Tabletop Cyber Simulation Engine
 
 **Autonomous Zero-Trust Healthcare GRC & Tabletop Cyber Simulation Engine**\
 *Motor autónomo de GRC y simulación de ciberataques (TTX) para el sector salud*
