@@ -1,6 +1,6 @@
 # SYNAPSE-T
 
-**Autonomous Zero-Trust Healthcare GRC & Tabletop Cyber Simulation Engine**
+**Autonomous Zero-Trust Healthcare GRC & Tabletop Cyber Simulation Engine**\
 *Motor autónomo de GRC y simulación de ciberataques (TTX) para el sector salud*
 
 [![Live demo](https://img.shields.io/badge/%E2%96%B6%20Live%20demo-Open%20SYNAPSE--T-2ea44f?style=for-the-badge&logo=vercel)](https://synapse3-seven.vercel.app)
@@ -17,7 +17,7 @@
 >
 > **El código fuente es privado y propietario.** Este repositorio es una vitrina: solo contiene documentación y diagramas. Para probar SYNAPSE-T, usa la **[demo en vivo](https://synapse3-seven.vercel.app)**.
 
-> **Built for the Google All Things Agentic Hackathon** (08/2026)
+> **Built for the Google All Things Agentic Hackathon** (08/2026)\
 > *Track: The Taskmaster — Autonomous Multi-Agent Systems*
 
 ![SYNAPSE-T live demo: TTX engine configuration screen](docs/demo-home.png)
