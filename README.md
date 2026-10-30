@@ -32,6 +32,11 @@
 
 ## 🏛️ Architecture · Arquitectura
 
+[![SYNAPSE-T system & agentic architecture](docs/architecture.svg)](docs/architecture.svg)
+
+<details>
+<summary><b>Simplified agent pipeline · Flujo simplificado de agentes</b></summary>
+
 ```mermaid
 graph TD
     A[Target Healthcare Facility / PDF Topology] --> B[Agent 1: Clinic OSINT Reconnaissance]
@@ -43,11 +48,6 @@ graph TD
     F --> G2[NIST OLIR Crosswalk Excel]
     F --> G3[5-Dimension ISO 27001 Domain Metrics]
 ```
-
-<details>
-<summary><b>Detailed enterprise architecture diagram · Diagrama de arquitectura detallado</b></summary>
-
-![SYNAPSE-T enterprise architecture](docs/architecture.svg)
 
 </details>
 
