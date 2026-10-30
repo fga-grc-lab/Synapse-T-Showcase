@@ -1,0 +1,345 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <!-- Dark Card Drop Shadows -->
+    <filter id="cardShadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+
+    <!-- Arrow Markers -->
+    <marker id="arrowCyan" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 9 5 L 0 8.5 z" fill="#00F0FF"/>
+    </marker>
+    <marker id="arrowIndigo" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 9 5 L 0 8.5 z" fill="#818CF8"/>
+    </marker>
+    <marker id="arrowEmerald" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 9 5 L 0 8.5 z" fill="#10B981"/>
+    </marker>
+    <marker id="arrowAmber" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 9 5 L 0 8.5 z" fill="#F59E0B"/>
+    </marker>
+  </defs>
+
+  <!-- Deep Midnight Slate Background -->
+  <rect width="1920" height="1080" fill="#080E1A"/>
+
+  <!-- TOP HEADER BANNER -->
+  <rect x="40" y="25" width="1840" height="85" rx="10" fill="#0F172A" stroke="#1E293B" stroke-width="1.5" filter="url(#cardShadow)"/>
+  <line x1="40" y1="25" x2="1880" y2="25" stroke="#00F0FF" stroke-width="4"/>
+  
+  <text x="70" y="60" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#00F0FF">SYNAPSE-T : SYSTEM &amp; AGENTIC ARCHITECTURE</text>
+  <text x="70" y="86" font-family="Helvetica, Arial, sans-serif" font-size="13.5" font-weight="normal" fill="#E2E8F0">Autonomous Zero-Trust Healthcare GRC &amp; Tabletop Cyber Simulation Engine | Google All Things Agentic Hackathon 2026</text>
+  <text x="1840" y="72" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" fill="#10B981">LIVE PRODUCTION DEPLOYMENT (Google Cloud Run us-central1)</text>
+
+  <!-- ======================================================== -->
+  <!-- COLUMN 1: CLIENT & INGESTION -->
+  <!-- ======================================================== -->
+  <rect x="40" y="130" width="330" height="42" rx="8" fill="#0284C7"/>
+  <text x="55" y="156" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#E0F2FE" letter-spacing="1">PHASE 1</text>
+  <text x="125" y="156" font-family="Helvetica, Arial, sans-serif" font-size="13.5" font-weight="bold" fill="#FFFFFF">CLIENT &amp; INGESTION</text>
+
+  <!-- Card 1.1: Web App -->
+  <g filter="url(#cardShadow)">
+    <rect x="40" y="190" width="330" height="290" rx="10" fill="#0F172A" stroke="#1E3A8A" stroke-width="1.5"/>
+    <rect x="40" y="190" width="330" height="5" rx="2" fill="#00F0FF"/>
+    <text x="65" y="225" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#38BDF8">Next.js 14 Executive Web App</text>
+    <text x="65" y="245" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#94A3B8">Frontend Client on Vercel Edge Node</text>
+    
+    <text x="65" y="285" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• Target Facility Profile Inputs</text>
+    <text x="80" y="308" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#CBD5E1">(Hospital Name, City, State)</text>
+    <text x="65" y="335" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• MITRE ATT&amp;CK Vector Selector</text>
+    <text x="80" y="358" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#CBD5E1">(Ransomware, Phishing, Exfiltration)</text>
+    <text x="65" y="385" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• Clinical PDF Architecture Upload</text>
+    <text x="65" y="412" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• Live SSE Pipeline Telemetry Stream</text>
+    <text x="65" y="439" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• Single-Click Session Purge Trigger</text>
+  </g>
+
+  <!-- Card 1.2: Ingestion & Recon -->
+  <g filter="url(#cardShadow)">
+    <rect x="40" y="500" width="330" height="470" rx="10" fill="#0F172A" stroke="#1E3A8A" stroke-width="1.5"/>
+    <rect x="40" y="500" width="330" height="5" rx="2" fill="#00F0FF"/>
+    <text x="65" y="535" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#38BDF8">Ingestion &amp; Surface Recon</text>
+    <text x="65" y="555" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#94A3B8">Automated CTI &amp; PDF Parsing</text>
+
+    <text x="65" y="595" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• Live CTI OSINT Reconnaissance:</text>
+    <text x="80" y="620" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#00F0FF">Tavily Search API Integration</text>
+    <text x="80" y="642" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#CBD5E1">Indexes official facts, CCN, beds, EHR</text>
+
+    <text x="65" y="680" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• Clinical PDF Topology Ingestion:</text>
+    <text x="80" y="705" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#00F0FF">PyMuPDF (fitz) Extraction Engine</text>
+    <text x="80" y="727" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#CBD5E1">Parses VLANs, PACS, EHR boundary maps</text>
+
+    <text x="65" y="765" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• 3-Bucket Healthcare Relevance Gate:</text>
+    <text x="80" y="790" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#CBD5E1">Deterministic validation filter</text>
+    <text x="80" y="812" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#CBD5E1">Strictly blocks non-healthcare entities</text>
+
+    <text x="65" y="850" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• Emits Structured Data Contract:</text>
+    <text x="80" y="875" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#00F0FF">ClinicProfile Pydantic Model</text>
+  </g>
+
+
+  <!-- ======================================================== -->
+  <!-- COLUMN 2: CLOUD RUN GATEWAY -->
+  <!-- ======================================================== -->
+  <rect x="415" y="130" width="330" height="42" rx="8" fill="#0369A1"/>
+  <text x="430" y="156" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#E0F2FE" letter-spacing="1">PHASE 2</text>
+  <text x="500" y="156" font-family="Helvetica, Arial, sans-serif" font-size="13.5" font-weight="bold" fill="#FFFFFF">CLOUD RUN GATEWAY</text>
+
+  <!-- Card 2.1: Cloud Run Infra -->
+  <g filter="url(#cardShadow)">
+    <rect x="415" y="190" width="330" height="290" rx="10" fill="#0F172A" stroke="#0369A1" stroke-width="1.5"/>
+    <rect x="415" y="190" width="330" height="5" rx="2" fill="#38BDF8"/>
+    <text x="440" y="225" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#38BDF8">Google Cloud Run Service</text>
+    <text x="440" y="245" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#94A3B8">Region: us-central1 (Debian Slim)</text>
+
+    <text x="440" y="285" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• Containerized Docker Microservices</text>
+    <text x="440" y="312" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• FastAPI Async Python 3 Core Engine</text>
+    <text x="440" y="339" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• Google Cloud Build CI/CD Pipeline</text>
+    <text x="440" y="366" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• Google Artifact Registry Storage</text>
+    <text x="440" y="393" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• Automatic Horizontal Autoscaling</text>
+    <text x="440" y="420" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• Sub-second Cold Start Latency</text>
+  </g>
+
+  <!-- Card 2.2: Dispatch & Key Rotator -->
+  <g filter="url(#cardShadow)">
+    <rect x="415" y="500" width="330" height="470" rx="10" fill="#0F172A" stroke="#0369A1" stroke-width="1.5"/>
+    <rect x="415" y="500" width="330" height="5" rx="2" fill="#38BDF8"/>
+    <text x="440" y="535" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#38BDF8">API Gateway &amp; Key Rotator</text>
+    <text x="440" y="555" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#94A3B8">Security, Rate Limiting &amp; Routing</text>
+
+    <text x="440" y="595" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• SmartRateLimiter Engine:</text>
+    <text x="455" y="620" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#38BDF8">Cyclic Multi-Key API Rotation</text>
+    <text x="455" y="642" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#CBD5E1">Manages GEMINI_API_KEY_1 .. 10</text>
+    <text x="455" y="664" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#CBD5E1">Exponential jitter backoff on 429 errors</text>
+
+    <text x="440" y="705" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• REST Endpoints Controller:</text>
+    <text x="455" y="730" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#38BDF8">POST /api/research-clinic</text>
+    <text x="455" y="752" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#38BDF8">POST /api/generate-ttx-scenario</text>
+    <text x="455" y="774" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#38BDF8">POST /api/generate-aar-report</text>
+    <text x="455" y="796" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#38BDF8">POST /api/purge-session</text>
+
+    <text x="440" y="835" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• Concurrency &amp; Thread Safety:</text>
+    <text x="455" y="860" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#CBD5E1">Asyncio.Lock for ChromaDB indexing</text>
+    <text x="455" y="882" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#CBD5E1">Prevents race conditions in TTX pipeline</text>
+  </g>
+
+
+  <!-- ======================================================== -->
+  <!-- COLUMN 3: 4 AUTONOMOUS AGENTS -->
+  <!-- ======================================================== -->
+  <rect x="790" y="130" width="340" height="42" rx="8" fill="#4338CA"/>
+  <text x="805" y="156" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#E0E7FF" letter-spacing="1">PHASE 3</text>
+  <text x="875" y="156" font-family="Helvetica, Arial, sans-serif" font-size="13.5" font-weight="bold" fill="#FFFFFF">4 AUTONOMOUS AGENTS</text>
+
+  <!-- Agent 1 -->
+  <g filter="url(#cardShadow)">
+    <rect x="790" y="190" width="340" height="170" rx="10" fill="#0F172A" stroke="#4338CA" stroke-width="1.5"/>
+    <rect x="790" y="190" width="340" height="5" rx="2" fill="#818CF8"/>
+    <text x="810" y="218" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#A5B4FC">AGENT 1: Reconnaissance</text>
+    <text x="810" y="238" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#818CF8">Model: gemini-3.5-flash-lite</text>
+    <text x="810" y="268" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• Queries live clinical databases &amp; CCN</text>
+    <text x="810" y="290" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• Identifies PACS / EHR / Medical Systems</text>
+    <text x="810" y="312" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• Emits validated ClinicProfile schema</text>
+  </g>
+
+  <!-- Agent 2 -->
+  <g filter="url(#cardShadow)">
+    <rect x="790" y="390" width="340" height="170" rx="10" fill="#0F172A" stroke="#4338CA" stroke-width="1.5"/>
+    <rect x="790" y="390" width="340" height="5" rx="2" fill="#818CF8"/>
+    <text x="810" y="418" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#A5B4FC">AGENT 2: Crisis Simulator</text>
+    <text x="810" y="438" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#818CF8">Model: gemini-3.5-flash-lite</text>
+    <text x="810" y="468" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• MITRE ATT&amp;CK Multi-Vector Events</text>
+    <text x="810" y="490" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• 4 FEMA HSEEP Phases (Detect to Recover)</text>
+    <text x="810" y="512" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• Injects 4 to 10 Chronological Injections</text>
+  </g>
+
+  <!-- Agent 3 -->
+  <g filter="url(#cardShadow)">
+    <rect x="790" y="590" width="340" height="175" rx="10" fill="#0F172A" stroke="#4338CA" stroke-width="1.5"/>
+    <rect x="790" y="590" width="340" height="5" rx="2" fill="#818CF8"/>
+    <text x="810" y="618" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#A5B4FC">AGENT 3: Zero-Trust RAG</text>
+    <text x="810" y="638" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#818CF8">Audit: 3.5-flash-lite | Embed: embed-2</text>
+    <text x="810" y="668" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• Phase 1 Forensic Micro-Auditing</text>
+    <text x="810" y="690" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• NIST SP 800-84 5-Whys Root-Cause Chain</text>
+    <text x="810" y="712" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• ISO/IEC 27001:2022 Annex A Mapping</text>
+    <text x="810" y="734" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• Emits Validated ImprovementAction Matrix</text>
+  </g>
+
+  <!-- Agent 4 -->
+  <g filter="url(#cardShadow)">
+    <rect x="790" y="795" width="340" height="175" rx="10" fill="#0F172A" stroke="#4338CA" stroke-width="1.5"/>
+    <rect x="790" y="795" width="340" height="5" rx="2" fill="#818CF8"/>
+    <text x="810" y="823" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#A5B4FC">AGENT 4: GRC Synthesis</text>
+    <text x="810" y="843" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#818CF8">Model: gemini-3.5-flash</text>
+    <text x="810" y="873" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• Phase 2 Executive HSEEP Synthesis</text>
+    <text x="810" y="895" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• Enforces Python Preamble Guard</text>
+    <text x="810" y="917" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• Contextualizes Facility Legal-Financial Risk</text>
+    <text x="810" y="939" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• Assembles Master AARIPReport Contract</text>
+  </g>
+
+  <!-- Clean Vertical Arrows inside Col 3 -->
+  <line x1="960" y1="360" x2="960" y2="382" stroke="#818CF8" stroke-width="2.5" marker-end="url(#arrowIndigo)"/>
+  <line x1="960" y1="560" x2="960" y2="582" stroke="#818CF8" stroke-width="2.5" marker-end="url(#arrowIndigo)"/>
+  <line x1="960" y1="765" x2="960" y2="787" stroke="#818CF8" stroke-width="2.5" marker-end="url(#arrowIndigo)"/>
+
+
+  <!-- ======================================================== -->
+  <!-- COLUMN 4: VAULT & DETERMINISTIC SCORING -->
+  <!-- ======================================================== -->
+  <rect x="1175" y="130" width="340" height="42" rx="8" fill="#047857"/>
+  <text x="1190" y="156" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#D1FAE5" letter-spacing="1">PHASE 4</text>
+  <text x="1260" y="156" font-family="Helvetica, Arial, sans-serif" font-size="13.5" font-weight="bold" fill="#FFFFFF">VAULT &amp; MATH SCORING</text>
+
+  <!-- Card 4.1: ChromaDB Vault -->
+  <g filter="url(#cardShadow)">
+    <rect x="1175" y="190" width="340" height="245" rx="10" fill="#0F172A" stroke="#047857" stroke-width="1.5"/>
+    <rect x="1175" y="190" width="340" height="5" rx="2" fill="#10B981"/>
+    <text x="1200" y="225" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#34D399">Federal Knowledge Vault</text>
+    <text x="1200" y="245" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#94A3B8">ChromaDB Local Vector Database</text>
+
+    <text x="1200" y="285" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• 561 Official Federal Law Chunks:</text>
+    <text x="1215" y="308" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#CBD5E1">- NIST CSF 2.0 Framework (Govern, Protect...)</text>
+    <text x="1215" y="328" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#CBD5E1">- HIPAA Security Rule (45 CFR Part 164)</text>
+    <text x="1215" y="348" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#CBD5E1">- HHS 405(d) HICP (Vols 1 &amp; 2 Med/Large)</text>
+    <text x="1215" y="368" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#CBD5E1">- ISO/IEC 27001:2022 Annex A Mapping</text>
+    <text x="1200" y="398" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#34D399">• High-Density 768-dim Embeddings</text>
+  </g>
+
+  <!-- Card 4.2: 5 Forensic Gates -->
+  <g filter="url(#cardShadow)">
+    <rect x="1175" y="450" width="340" height="245" rx="10" fill="#0F172A" stroke="#7C3AED" stroke-width="1.5"/>
+    <rect x="1175" y="450" width="340" height="5" rx="2" fill="#A855F7"/>
+    <text x="1200" y="485" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#C084FC">5-Gate Zero-Trust Shield</text>
+    <text x="1200" y="505" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#94A3B8">Deterministic Forensic Validation Pipeline</text>
+
+    <text x="1200" y="545" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• Gate 1: Quote Bounds Check [20, 2000 chars]</text>
+    <text x="1200" y="572" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• Gate 2: ISO Control Regex (A.[5-8].xx)</text>
+    <text x="1200" y="599" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• Gate 3: Complete NIST 5-Whys Chain</text>
+    <text x="1200" y="626" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• Gate 4: ChromaDB Verbatim Substring Match</text>
+    <text x="1200" y="653" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• Gate 5: Atomic Unique Allocation Lock</text>
+    <text x="1200" y="680" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#C084FC">★ 100% Zero-Hallucination Compliance</text>
+  </g>
+
+  <!-- Card 4.3: Deterministic Math Engine -->
+  <g filter="url(#cardShadow)">
+    <rect x="1175" y="710" width="340" height="260" rx="10" fill="#0F172A" stroke="#D97706" stroke-width="1.5"/>
+    <rect x="1175" y="710" width="340" height="5" rx="2" fill="#F59E0B"/>
+    <text x="1200" y="745" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#FBBF24">Deterministic Math Engine</text>
+    <text x="1200" y="765" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#94A3B8">Python Execution (Zero LLM Guessing)</text>
+
+    <text x="1200" y="805" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• Compliance Scoring Formula:</text>
+    <text x="1215" y="830" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#FBBF24">Score = 100 + 5*(Strengths) - 15*(Gaps)</text>
+    <text x="1215" y="850" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#CBD5E1">Bounded strictly between [0, 100]</text>
+
+    <text x="1200" y="885" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• Statutory OCR HIPAA Fine Exposure:</text>
+    <text x="1215" y="908" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#CBD5E1">$1.5M Annual Cap per ISO Family (45 CFR § 160.404)</text>
+
+    <text x="1200" y="940" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• CISA BOD 19-02 Priority Triage SLAs:</text>
+    <text x="1215" y="960" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#FBBF24">P0_24h (Crit)  |  P1_30d (High)  |  P2_90d (Med)</text>
+  </g>
+
+
+  <!-- ======================================================== -->
+  <!-- COLUMN 5: ARTIFACTS & PRIVACY -->
+  <!-- ======================================================== -->
+  <rect x="1560" y="130" width="320" height="42" rx="8" fill="#B45309"/>
+  <text x="1575" y="156" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#FEF3C7" letter-spacing="1">PHASE 5</text>
+  <text x="1645" y="156" font-family="Helvetica, Arial, sans-serif" font-size="13.5" font-weight="bold" fill="#FFFFFF">OUTPUTS &amp; PRIVACY</text>
+
+  <!-- Card 5.1: Artifacts -->
+  <g filter="url(#cardShadow)">
+    <rect x="1560" y="190" width="320" height="440" rx="10" fill="#0F172A" stroke="#B45309" stroke-width="1.5"/>
+    <rect x="1560" y="190" width="320" height="5" rx="2" fill="#F59E0B"/>
+    <text x="1585" y="225" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#FBBF24">Institutional Artifacts</text>
+    <text x="1585" y="245" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#94A3B8">Board-Ready Executive Deliverables</text>
+
+    <text x="1585" y="285" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• Printable Executive PDF Dossier:</text>
+    <text x="1600" y="308" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#CBD5E1">- FEMA HSEEP Format Overview</text>
+    <text x="1600" y="328" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#CBD5E1">- 5-Whys Forensic Root Cause Timeline</text>
+
+    <text x="1585" y="365" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• NIST OLIR Excel Crosswalk (.xlsx):</text>
+    <text x="1600" y="388" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#CBD5E1">- Multi-tab Federal Color Matrices</text>
+    <text x="1600" y="408" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#FBBF24">- FGA GRC Lab Metadata Sealed</text>
+
+    <text x="1585" y="445" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• 5 ISO 27001 Domain Metrics:</text>
+    <text x="1600" y="468" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#CBD5E1">1. Networks &amp; Infrastructure (A.7/8)</text>
+    <text x="1600" y="488" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#CBD5E1">2. Identity &amp; Access Mgmt (A.5)</text>
+    <text x="1600" y="508" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#CBD5E1">3. Business Continuity (A.5/A.8)</text>
+    <text x="1600" y="528" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#CBD5E1">4. Data Protection &amp; Privacy (A.8)</text>
+    <text x="1600" y="548" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#CBD5E1">5. Human Factors &amp; Training (A.6)</text>
+    <text x="1600" y="575" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#FBBF24">Horizontal Progress Bars in UI</text>
+  </g>
+
+  <!-- Card 5.2: Privacy -->
+  <g filter="url(#cardShadow)">
+    <rect x="1560" y="645" width="320" height="325" rx="10" fill="#0F172A" stroke="#B45309" stroke-width="1.5"/>
+    <rect x="1560" y="645" width="320" height="5" rx="2" fill="#F59E0B"/>
+    <text x="1585" y="680" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#FBBF24">Zero-Retention Privacy</text>
+    <text x="1585" y="700" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#94A3B8">Strict HIPAA Compliance by Design</text>
+
+    <text x="1585" y="740" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• 100% Stateless Server Memory</text>
+    <text x="1585" y="767" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• POST /api/purge-session Action</text>
+    <text x="1600" y="790" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#CBD5E1">Sanitizes transient caches instantly</text>
+
+    <text x="1585" y="825" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• No PHI Persistence by Design</text>
+    <text x="1600" y="848" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#CBD5E1">Compliant with HIPAA 45 CFR</text>
+    <text x="1600" y="868" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#CBD5E1">§ 164.502(b) Data Minimization</text>
+
+    <text x="1585" y="905" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#F8FAFC">• Verified Engineering Standards</text>
+    <text x="1600" y="928" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#FBBF24">Author: FGA GRC Laboratory</text>
+  </g>
+
+
+  <!-- ======================================================== -->
+  <!-- INTER-COLUMN CLEAN ARROWS (IN OPEN GAPS, NO OVERLAP) -->
+  <!-- ======================================================== -->
+  <!-- Gap 1: Col 1 -> Col 2 (X=370 to 415) -->
+  <line x1="370" y1="335" x2="410" y2="335" stroke="#00F0FF" stroke-width="2.5" marker-end="url(#arrowCyan)"/>
+  <rect x="372" y="315" width="36" height="16" rx="3" fill="#0284C7"/>
+  <text x="390" y="327" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFFFFF">HTTPS</text>
+
+  <line x1="370" y1="735" x2="410" y2="735" stroke="#00F0FF" stroke-width="2.5" marker-end="url(#arrowCyan)"/>
+  <rect x="372" y="715" width="36" height="16" rx="3" fill="#0284C7"/>
+  <text x="390" y="727" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFFFFF">JSON</text>
+
+  <!-- Gap 2: Col 2 -> Col 3 (X=745 to 790) -->
+  <line x1="745" y1="275" x2="785" y2="275" stroke="#00F0FF" stroke-width="2.5" marker-end="url(#arrowCyan)"/>
+  <rect x="748" y="255" width="34" height="16" rx="3" fill="#0284C7"/>
+  <text x="765" y="267" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFFFFF">Agt 1</text>
+
+  <line x1="745" y1="475" x2="785" y2="475" stroke="#00F0FF" stroke-width="2.5" marker-end="url(#arrowCyan)"/>
+  <rect x="748" y="455" width="34" height="16" rx="3" fill="#0284C7"/>
+  <text x="765" y="467" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFFFFF">Agt 2</text>
+
+  <line x1="745" y1="675" x2="785" y2="675" stroke="#00F0FF" stroke-width="2.5" marker-end="url(#arrowCyan)"/>
+  <rect x="748" y="655" width="34" height="16" rx="3" fill="#0284C7"/>
+  <text x="765" y="667" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFFFFF">Agt 3</text>
+
+  <!-- Gap 3: Col 3 -> Col 4 (X=1130 to 1175) -->
+  <line x1="1130" y1="310" x2="1170" y2="310" stroke="#10B981" stroke-width="2.5" marker-end="url(#arrowEmerald)"/>
+  <rect x="1133" y="290" width="34" height="16" rx="3" fill="#047857"/>
+  <text x="1150" y="302" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFFFFF">RAG</text>
+
+  <line x1="1130" y1="575" x2="1170" y2="575" stroke="#818CF8" stroke-width="2.5" marker-end="url(#arrowIndigo)"/>
+  <rect x="1133" y="555" width="34" height="16" rx="3" fill="#4338CA"/>
+  <text x="1150" y="567" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFFFFF">Gates</text>
+
+  <line x1="1130" y1="840" x2="1170" y2="840" stroke="#F59E0B" stroke-width="2.5" marker-end="url(#arrowAmber)"/>
+  <rect x="1133" y="820" width="34" height="16" rx="3" fill="#B45309"/>
+  <text x="1150" y="832" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFFFFF">Math</text>
+
+  <!-- Gap 4: Col 4 -> Col 5 (X=1515 to 1560) -->
+  <line x1="1515" y1="410" x2="1555" y2="410" stroke="#F59E0B" stroke-width="2.5" marker-end="url(#arrowAmber)"/>
+  <rect x="1518" y="390" width="34" height="16" rx="3" fill="#B45309"/>
+  <text x="1535" y="402" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFFFFF">Docs</text>
+
+  <line x1="1515" y1="810" x2="1555" y2="810" stroke="#F59E0B" stroke-width="2.5" marker-end="url(#arrowAmber)"/>
+  <rect x="1518" y="790" width="34" height="16" rx="3" fill="#B45309"/>
+  <text x="1535" y="802" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFFFFF">Purge</text>
+
+  <!-- FOOTER -->
+  <rect x="40" y="995" width="1840" height="55" rx="10" fill="#0F172A" stroke="#1E293B" stroke-width="1.5" filter="url(#cardShadow)"/>
+  <text x="70" y="1028" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#94A3B8">Synapse-T Architecture Blueprint | Google All Things Agentic Hackathon 2026 | Developed by FGA GRC Laboratory</text>
+  <text x="1840" y="1028" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#94A3B8">Live Web App: https://synapse3-seven.vercel.app | Production API: Google Cloud Run (us-central1)</text>
+
+</svg>
